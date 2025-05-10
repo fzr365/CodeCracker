@@ -13,7 +13,7 @@ java/
   └── difficulty/
       └── {problem_id}_{title}/
           ├── Solution.java
-          └── README.md
+└── README.md
 ```
 
 ## 🚀 Progress
