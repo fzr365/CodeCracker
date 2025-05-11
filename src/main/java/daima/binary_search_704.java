@@ -1,6 +1,6 @@
 package daima;
 
-public class binary_search {
+public class binary_search_704 {
     public int search(int[] nums, int target) {
         int left=0;
         int length=nums.length;
@@ -18,8 +18,9 @@ public class binary_search {
         return -1;
     }
 
+
     public static void main(String[] args) {
-        binary_search bs=new binary_search();
+        binary_search_704 bs=new binary_search_704();
         int [] nums={-1,0,3,5,9,12};
         int target=9;
         System.out.println(bs.search(nums,target));
